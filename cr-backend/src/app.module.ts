@@ -10,3 +10,4 @@ import { CoursesController } from './courses.controller';
   providers: [AppService],
 })
 export class AppModule {}
+
