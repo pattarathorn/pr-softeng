@@ -5,9 +5,19 @@ export class CoursesController {
 
   @Get()
   findAll(): any {
-    return {
-      message: 'Hi best'
-    };
+    return [
+      {
+        id: '100' , 
+        number: '01204111',
+        title: 'Computer and Programming'
+      },
+      {
+        id: '200',
+        number: '01204211',
+        title: 'Discrete'
+      },
+
+    ];
   }
 }
-export default CoursesController;
+
